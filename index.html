@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Changhao Chen</title>
+
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <style>
+          body {
+            font-family: 'sans-serif';
+            font-size: 16px;
+            background-color: #FFFFFF;
+            color: #4F6071;
+          }
+          #header {
+            background-color: #f4f4f4;
+            /*background-color: #FFFFFF;*/
+            display: flex;
+            align-items: flex-end;
+            padding-top:60px;
+            padding-bottom:60px;
+          }
+          #link { color: #FFFFFF; }
+          #top {
+            background-color: #D7DBDD;
+            /*background-color: #000000;*/
+            align-items: flex-end;
+            padding-top:5px;
+            padding-bottom:1px;
+          }
+          #footer {
+            background-color: #FFFFFF;
+            padding:60px;
+          }
+          #portrait {
+            border: 3px solid white;
+          }
+          #header-text {
+            margin-top: 60px;
+            margin-left: 220px;
+          }
+          #header-text-name {
+            font-size: 40px;
+          }
+          #header-text-position {
+            font-size: 20px;
+          }
+          #header-text-email {
+            font-size: 20px;
+            font-style: italic;
+          }
+          .header-text-desc {
+            font-size: 20px;
+          }
+          .vspace-top {
+            margin-top: 30px;
+          }
+          .vspace-top-news {
+              margin-top: 15px;
+          }
+          .paper-image {
+            width: 150px;
+          }
+          .news-date {
+              font-weight: bold;
+          }
+          .paper-title {
+            font-weight: bold;
+          }
+          .paper-authors {
+            font-style: italic;
+          }
+    </style>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160288660-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-160288660-1');
+    </script>
+</head>
+
+<body>
+<div id='top'>
+    <div class='container'>
+    <p style="text-align:right; font-size: 20px; font-style: italic;">
+        <a id ="link" href="#news">News</a> &nbsp
+        <a id ="link" href="#preprints">Preprints</a> &nbsp
+        <a id ="link" href="#publication">Publication</a> &nbsp
+        <a id ="link" href="#teaching">Teaching</a> &nbsp
+        <a id ="link" href="#services">Services</a>
+    </p>
+    </div>
+</div>
+<!--
+<div id='top' style="position: sticky; top: 0;">
+    <div class='container'>
+    <p><a style="text-align:right;" id ="link" href="#publication">Publication</a></p>
+    </div>
+</div> -->
+    <div id='header'>
+        <div class='container'>
+            <div class='row'>
+                <div class="col-sm-3 offset-sm-1">
+                    <img src='imgs/portrait.jpg' class='img-fluid' id='portrait'>
+                </div>
+
+                <div class="col">
+                  <div id='header-text-name'>
+                      Changhao Chen
+                  </div>
+                  <div id='header-text-position'>
+                    Postdoctoral Researcher
+                  </div>
+                  <div id='header-text-position'>
+                    Department of Computer Science
+                  </div>
+                  <div id='header-text-position'>
+                    University of Oxford
+                  </div>
+                  <div id='header-text-email'>
+                    changhao.chen (at) cs (dot) ox (dot) ac (dot) uk
+                  </div>
+                  <div>
+                    <a href="https://scholar.google.com/citations?user=OqlY-98AAAAJ&hl=en">[Google Scholar]</a>
+                    <a href="https://www.linkedin.com/in/changhao-chen/">[LinkedIn]</a>
+                    <a href="https://twitter.com/chencch852">[Twitter]</a>
+                  </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class='container'>
+        <div class='row vspace-top'>
+            <div class='col offset-sm-1'>
+                <h1>Bio</h1>
+                <p>
+                I am a postdoctoral research associate at <a href="http://www.cs.ox.ac.uk/">Department of Computer Science</a>, <a href="http://www.ox.ac.uk/">University of Oxford</a>, working on EPSRC Programme Grant Project <a href="https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/S030832/1">"ACE-OPS: From Autonomy to Cognitive assistance in Emergency OPerationS"</a>, led by <a href="http://www.cs.ox.ac.uk/people/niki.trigoni/">Prof. Niki Trigoni</a>, <a href="http://www.cs.ox.ac.uk/people/andrew.markham/">Prof. Andrew Markham</a>, <a href="https://ori.ox.ac.uk/ori-people/paul-newman/">Prof. Paul Newman</a> and <a href="https://ori.ox.ac.uk/ori-people/jon-gammell/">Dr. Jonathan Gammell</a>.
+                Before that, I did my doctoral study (2016-2020) at <a href="http://www.ox.ac.uk/">University of Oxford</a>, supevised by <a href="http://www.cs.ox.ac.uk/people/niki.trigoni/">Prof. Niki Trigoni</a> and <a href="http://www.cs.ox.ac.uk/people/andrew.markham/">Prof. Andrew Markham</a>, and my bachelor (2010-2014) at the <a href="https://en.tongji.edu.cn/">Tongji University</a>, China.
+                </p>
+                <p>
+                    My research interests include <strong><em>Robotics, Machine Learning and Cyber-Physical Systems</em></strong>.
+                    Driven by solving real-world problems, I study machine (deep) learning to process time-series sensor data for <strong><em>localization, mapping, navigation, and perception</em></strong>, in support of robots, mobile devices, self-driving vehicles and Internet of Things (IoT).
+                </p>
+
+                <div class='vspace-top'>
+                    <a name="news"></a>
+                    <h1>News</h1>
+                </div>
+
+                <!--- List of news ---!>
+                <div class='row vspace-top-news'>
+                    <div class="col-sm-2 news-date">
+                        Sep 2020
+                    </div>
+                    <div class="col">
+                        Our paper "milliEgo: Single-chip mmWave Radar Aided Egomotion Estimation via Deep Sensor Fusion" was conditionally accepted to SenSys 2020.
+                    </div>
+                </div>
+
+                <div class='row vspace-top-news'>
+                    <div class="col-sm-2 news-date">
+                        Jul 2020
+                    </div>
+                    <div class="col">
+                        Successfully defended my doctoral thesis titled "Learning Methods for Robust Localization". Please check this <a href="https://www.youtube.com/watch?v=RVyifQ5TUpE"> 3-minutes video </a> to overview my doctoral research.
+                    </div>
+                </div>
+
+                <div class='row vspace-top-news'>
+                    <div class="col-sm-2 news-date">
+                        Jun 2020
+                    </div>
+                    <div class="col">
+                        Released a survey paper on <a href="https://github.com/changhao-chen/deep-learning-localization">Deep Learning for Localization and Mapping</a>
+                    </div>
+                </div>
+
+                <div class='row vspace-top-news'>
+                    <div class="col-sm-2 news-date">
+                        Apr 2020
+                    </div>
+                    <div class="col">
+                        Selected as one of the <a href="https://sites.google.com/view/rsspioneers2020/">RSS Pioneers 2020</a></li>
+                    </div>
+                </div>
+
+                <div class='row vspace-top-news'>
+                    <div class="col-sm-2 news-date">
+                        Mar 2020
+                    </div>
+                    <div class="col">
+                        Our paper "milliMap: Robust Indoor Mapping with Low-cost mmWave Radar" was accepted to MobiSys 2020
+                    </div>
+                </div>
+
+                <div class='row vspace-top-news'>
+                    <div class="col-sm-2 news-date">
+                        Feb 2020
+                    </div>
+                    <div class="col">
+                        Our paper "Learning with Stochastic Guidance for Navigation" was accepted to IEEE TNNLS
+		    	    </div>
+                </div>
+
+
+                <div class='row vspace-top-news'>
+                    <div class="col-sm-2 news-date">
+                        Jan 2020
+                    </div>
+                    <div class="col">
+                        Two papers were accepted to ICRA 2020, and our paper "Deep Learning based Pedestrian Inertial Navigation: Methods, Dataset and On-Device Inference" was accepted to IEEE IoT-J
+                    </div>
+                </div>
+
+                <div class='row vspace-top-news'>
+                    <div class="col-sm-2 news-date">
+                        Dec 2019
+                    </div>
+                    <div class="col">
+                        Our paper "Deep Neural Network Based Inertial Odometry Using Low-cost Inertial Measurement Units" was accepted to IEEE TMC
+                        </div>
+                </div>
+
+                <div class='row vspace-top-news'>
+                    <div class="col-sm-2 news-date">
+                        Nov 2019
+                    </div>
+                    <div class="col">
+                        Received Pembroke Dean of Graduates Fund and NeurIPS ML4AD Travel Award
+                        </div>
+                </div>
+
+                <div class='row vspace-top-news'>
+                    <div class="col-sm-2 news-date">
+                        Nov 2019
+                    </div>
+                    <div class="col">
+                        Our paper "AtLoc: Attention Guided Camera Localization" was accepted to AAAI 2020
+                        </div>
+                </div>
+
+                <div class='row vspace-top-news'>
+                    <div class="col-sm-2 news-date">
+                        Jul 2019
+                    </div>
+                    <div class="col">
+                        Invited talk at Cardiff University hosted by Prof. Paul Rosin
+                        </div>
+                </div>
+
+                <div class='row vspace-top-news'>
+                    <div class="col-sm-2 news-date">
+                        Jul 2019
+                    </div>
+                    <div class="col">
+                        Our paper "Autonomous Learning of Speaker Identity and WiFi Geofence from Noisy Sensor Data" was accepted to IEEE IoT-J
+                    </div>
+                </div>
+
+                <div class='row vspace-top-news'>
+                    <div class="col-sm-2 news-date">
+                        Jun 2019
+                    </div>
+                    <div class="col">
+                        Our paper "DeepPCO: End-to-End Point Cloud Odometry through Deep Parallel Neural Network" was accepted to IROS 2019
+                    </div>
+                </div>
+
+                <div class='row vspace-top-news'>
+                    <div class="col-sm-2 news-date">
+                        May 2019
+                    </div>
+                    <div class="col">
+                        Received Best Paper Nominee at DCOSS 2019
+                    </div>
+                </div>
+
+                <div class='row vspace-top-news'>
+                    <div class="col-sm-2 news-date">
+                        Feb 2019
+                    </div>
+                    <div class="col">
+                        Our paper "Selective Sensor Fusion for Neural Visual-Inertial Odometry" was accepted to CVPR 2019
+                        </div>
+                </div>
+
+                <div class='row vspace-top-news'>
+                    <div class="col-sm-2 news-date">
+                        Jan 2019
+                    </div>
+                    <div class="col">
+                        Our paper "Autonomous Learning for Face Recognition in the Wild via Ambient Wireless Cues" was accepted to WWW 2019
+                        </div>
+                </div>
+
+                <div class='vspace-top'>
+                    <a name="preprints"></a>
+                    <h1>Preprints</h1>
+                </div>
+
+                <div class='row vspace-top'>
+                    <div class="col-sm-3">
+                        <img src='imgs/survey.png' class='img-fluid'>
+                    </div>
+
+                    <div class="col">
+                        <div class='paper-title'>
+			    A Survey on Deep Learning for Localization and Mapping: Towards the Age of Spatial Machine Intelligence
+                        </div>
+                        <div class='paper-desc'>
+				arXiv:2006.12567
+                        </div>
+                        <div class='paper-authors'>
+                            <strong>Changhao Chen</strong>, Bing Wang, Chris Xiaoxuan Lu, Niki Trigoni, Andrew Markham
+                        </div>
+                        <div>
+                            <a href="https://arxiv.org/abs/2006.12567">[PDF]</a>
+                            <a href="https://github.com/changhao-chen/deep-learning-localization-mapping">[Website]</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='row vspace-top'>
+                    <div class="col-sm-3">
+                        <img src='imgs/selectfusion.png' class='img-fluid'>
+                    </div>
+
+                    <div class="col">
+                        <div class='paper-title'>
+			    SelectFusion: A Generic Framework to Selectively Learn Multisensory Fusion
+                        </div>
+                        <div class='paper-desc'>
+				arXiv:1912.13077
+                        </div>
+                        <div class='paper-authors'>
+                            <strong>Changhao Chen</strong>, Stefano Rosa, Chris Xiaoxuan Lu, Niki Trigoni, Andrew Markham
+                        </div>
+                        <div>
+                              <a href="https://arxiv.org/abs/1912.13077">[PDF]</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='row vspace-top'>
+                    <div class="col-sm-3">
+                        <img src='imgs/dynanet.png' class='img-fluid'>
+                    </div>
+
+                    <div class="col">
+                        <div class='paper-title'>
+			    DynaNet: Neural Kalman Dynamical Model for Motion Estimation and Prediction
+                        </div>
+                        <div class='paper-desc'>
+				arXiv:1908.03918
+                        </div>
+                        <div class='paper-authors'>
+                            <strong>Changhao Chen</strong>, Chris Xiaoxuan Lu, Bing Wang, Niki Trigoni, Andrew Markham
+                        </div>
+                        <div>
+                              <a href="https://arxiv.org/pdf/1908.03918.pdf">[PDF]</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='row vspace-top'>
+                    <div class="col-sm-3">
+                        <img src='imgs/mvloc.png' class='img-fluid'>
+                    </div>
+
+                    <div class="col">
+                        <div class='paper-title'>
+			    MVLoc: Multimodal Variational Geometry-Aware Learning for Visual Localization
+                        </div>
+                        <div class='paper-desc'>
+				arXiv:2003.07289
+                        </div>
+                        <div class='paper-authors'>
+                            Rui Zhou, <strong>Changhao Chen</strong>, Bing Wang, Andrew Markham, Niki Trigoni
+                        </div>
+                        <div>
+                              <a href="https://arxiv.org/abs/2003.07289">[PDF]</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='row vspace-top'>
+                    <div class="col-sm-3">
+                        <img src='imgs/pointloc.png' class='img-fluid'>
+                    </div>
+
+                    <div class="col">
+                        <div class='paper-title'>
+			    PointLoc: Deep Pose Regressor for LiDAR Point Cloud Localization
+                        </div>
+                        <div class='paper-desc'>
+				arXiv:2003.02392
+                        </div>
+                        <div class='paper-authors'>
+                            Wei Wang, Bing Wang, Peijun Zhao, <strong>Changhao Chen</strong>, Ronald Clark, Bo Yang, Andrew Markham, Niki Trigoni
+                        </div>
+                        <div>
+                             <a href="https://arxiv.org/abs/2003.02392">[PDF]</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='vspace-top'>
+                    <a name="publication"></a>
+                    <h1>Publications</h1>
+                </div>
+
+                <div class='vspace-top'>
+                    <h3>2020</h3>
+                </div>
+
+                <div class='row vspace-top'>
+                    <div class="col-sm-3">
+                        <img src='imgs/milliego.png' class='img-fluid'>
+                    </div>
+
+                    <div class="col">
+                        <div class='paper-title'>
+			    milliEgo: Single-chip mmWave Radar Aided Egomotion Estimation via Deep Sensor Fusion
+                        </div>
+                        <div class='paper-desc'>
+				<strong>SenSys-2020</strong>, The 18th ACM Conference on Embedded Networked Sensor Systems
+                        </div>
+                        <div class='paper-authors'>
+                            Chris Xiaoxuan Lu, Muhamad Saputra, Peijun Zhao, Yasin Almalioglu, Pedro P. B. de Gusmao, <strong>Changhao Chen</strong>, Ke Sun, Niki Trigoni, Andrew Markham
+                        </div>
+                        <div>
+                             <a href="https://arxiv.org/abs/2006.02266">[PDF]</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='row vspace-top'>
+                    <div class="col-sm-3">
+                        <img src='imgs/l_ionet2.png' class='img-fluid'>
+                    </div>
+
+                    <div class="col">
+                        <div class='paper-title'>
+			    Deep Learning based Pedestrian Inertial Navigation: Methods, Dataset and On-Device Inference
+                        </div>
+                        <div class='paper-desc'>
+				IEEE Internet of Things Journal (<strong>impact factor = 9.515</strong>)
+                        </div>
+                        <div class='paper-authors'>
+                            <strong>Changhao Chen</strong>*, Peijun Zhao*, Chris Xiaoxuan Lu, Wei Wang, Andrew Markham, Niki Trigoni
+                        </div>
+                        <div>
+                             <a href="https://arxiv.org/abs/2001.04061">[PDF]</a>
+                            <p>* equal contribution</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='row vspace-top'>
+                    <div class="col-sm-3">
+                        <img src='imgs/AtLoc.png' class='img-fluid'>
+                    </div>
+
+                    <div class="col">
+                        <div class='paper-title'>
+			    AtLoc: Attention Guided Camera Localization
+                        </div>
+                        <div class='paper-desc'>
+				<strong>AAAI-2020</strong>, The 34th AAAI Conference on Artificial Intelligence
+                        </div>
+                        <div class='paper-authors'>
+                            Bing Wang, <strong>Changhao Chen</strong>*, Chris Xiaoxuan Lu, Peijun Zhao, Niki Trigoni, Andrew Markham
+                        </div>
+                        <div>
+                             <a href="https://arxiv.org/pdf/1909.03557.pdf">[PDF]</a>
+              <a href="https://www.cs.ox.ac.uk/publications/publication13670.bib">[Bibtex]</a>
+              <a href="https://github.com/BingCS/AtLoc">[Code]</a>
+                            <p> *corresponding author </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='row vspace-top'>
+                    <div class="col-sm-3">
+                        <img src='imgs/journal_ionet.png' class='img-fluid'>
+                    </div>
+
+                    <div class="col">
+                        <div class='paper-title'>
+			    Deep Neural Network Based Inertial Odometry Using Low-cost Inertial Measurement Units
+                        </div>
+                        <div class='paper-desc'>
+				IEEE Transactions on Mobile Computing (<strong><em>impact factor = 4.474</em></strong>)
+                        </div>
+                        <div class='paper-authors'>
+                            <strong>Changhao Chen</strong>, Chris Xiaoxuan Lu, Johan Wahlstrom, Andrew Markham, Niki Trigoni
+                        </div>
+                        <div>
+                             <a href="https://ieeexplore.ieee.org/document/8937008">[PDF]</a>
+                            <a href="https://www.cs.ox.ac.uk/publications/publication13729.bib">[Bibtex]</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='row vspace-top'>
+                    <div class="col-sm-3">
+                        <img src='imgs/millimap.png' class='img-fluid'>
+                    </div>
+
+                    <div class="col">
+                        <div class='paper-title'>
+			    milliMap: Robust Indoor Mapping with Low-cost mmWave Radar
+                        </div>
+                        <div class='paper-desc'>
+				<strong><em>MobiSys-2020</em></strong>, The 18th ACM International Conference on Mobile Systems, Applications, and Services
+                        </div>
+                        <div class='paper-authors'>
+                            Chris Xiaoxuan Lu, Stefano Rosa, Peijun Zhao, Bing Wang, <strong>Changhao Chen</strong>, Niki Trigoni, Andrew Markham
+                        </div>
+                        <div>
+                             <a href="https://arxiv.org/abs/1911.00398">[PDF]</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='row vspace-top'>
+                    <div class="col-sm-3">
+                        <img src='imgs/DeepTIO.png' class='img-fluid'>
+                    </div>
+
+                    <div class="col">
+                        <div class='paper-title'>
+			   DeepTIO: A Deep Thermal-Inertial Odometry with Visual Hallucination
+                        </div>
+                        <div class='paper-desc'>
+				IEEE Robotics and Automation Letters (<strong><em>impact factor = 3.608</em></strong>)
+                        </div>
+                        <div class='paper-desc'>
+                            <strong><em>ICRA-2020</em></strong>, International Conference on Robotics and Automation
+                        </div>
+                            <div class='paper-authors'>
+                            Muhamad Saputra, Pedro Gusmao, Chris Xiaoxuan Lu, Yasin Almalioglu, Stefano Rosa, <strong>Changhao Chen</strong>, Johan Wahlstrom, Wei Wang, Andrew Markham, Niki Trigoni
+                        </div>
+                        <div>
+                             <a href="https://arxiv.org/pdf/1909.07231.pdf">[PDF]</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='row vspace-top'>
+                    <div class="col-sm-3">
+                        <img src='imgs/mbeats.png' class='img-fluid'>
+                    </div>
+
+                    <div class="col">
+                        <div class='paper-title'>
+			                Heart Rate Sensing with a Robot Mounted mmWave Radar
+                        </div>
+                        <div class='paper-desc'>
+				            <strong><em>ICRA-2020</em></strong>, International Conference on Robotics and Automation
+                        </div>
+                        <div class='paper-authors'>
+                            Peijun Zhao, Chris Xiaoxuan Lu, Bing Wang, <strong>Changhao Chen</strong>, Mengyu Wang, Andrew Markham, Niki Trigoni
+                        </div>
+                        <div>
+                             <a href="http://www.cs.ox.ac.uk/files/11900/_ICRA2020__m_beats.pdf">[PDF]</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='row vspace-top'>
+                    <div class="col-sm-3">
+                        <img src='imgs/robotnav.png' class='img-fluid'>
+                    </div>
+
+                    <div class="col">
+                        <div class='paper-title'>
+			                Learning with Stochastic Guidance for Robot Navigation
+                        </div>
+                        <div class='paper-desc'>
+                            IEEE Transactions on Neural Networks and Learning Systems (<strong><em>impact factor = 11.683</em></strong>)
+              </div>
+                        <div class='paper-authors'>
+                            Linhai Xie, Yishu Miao, Sen Wang, Phil Blunsom, Zhihua Wang, <strong>Changhao Chen</strong>, Andrew Markham, Niki Trigoni
+                        </div>
+                        <div>
+                             <a href="https://arxiv.org/abs/1811.10756">[PDF]</a>
+              <a href="">[Bibtex]</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='vspace-top'>
+                    <h3>2019</h3>
+                </div>
+
+                <div class='row vspace-top'>
+                    <div class="col-sm-3">
+                        <img src='imgs/select_cvpr.png' class='img-fluid'>
+                    </div>
+
+                    <div class="col">
+                        <div class='paper-title'>
+			                Selective Sensor Fusion for Neural Visual-Inertial Odometry
+                        </div>
+                        <div class='paper-desc'>
+                            <strong><em>CVPR-2019</em></strong>, Conference on Computer Vision and Pattern Recognition
+                        </div>
+                        <div class='paper-authors'>
+                            <strong>Changhao Chen</strong>, Stefano Rosa, Yishu Miao, Chris Xiaoxuan Lu, Wei Wu, Andrew Markham, Niki Trigoni
+                        </div>
+                        <div>
+                            <a href="http://www.cs.ox.ac.uk/files/10813/Selective_Sensor_Fusion_Chen.pdf">[PDF]</a>
+                            <a href="http://www.cs.ox.ac.uk/publications/publication12421.bib">[Bibtex]</a>
+                            <a href="https://changhaoc.github.io/selective_sensor_fusion/">[Project Website]</a>
+                            <a href="docs/CVPR2019_Poster.pdf">[Poster]</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='row vspace-top'>
+                    <div class="col-sm-3">
+                        <img src='imgs/mt_aaai.png' class='img-fluid'>
+                    </div>
+
+                    <div class="col">
+                        <div class='paper-title'>
+			                MotionTransformer: Transferring Neural Inertial Tracking Between Domains
+                        </div>
+                        <div class='paper-desc'>
+                            <strong><em>AAAI-2019</em></strong>, The 33rd AAAI Conference on Artificial Intelligence
+                        </div>
+                        <div class='paper-authors'>
+                            <strong>Changhao Chen</strong>, Yishu Miao, Chris Xiaoxuan Lu, Linhai Xie, Phil Blunsom, Andrew Markham, Niki Trigoni
+                        </div>
+                        <div>
+                            <a href="http://www.cs.ox.ac.uk/files/10408/motiontransformer-transferring-neural%20%283%29.pdf">[PDF]</a>
+              <a href="http://www.cs.ox.ac.uk/publications/publication12244.bib">[Bibtex]</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='row vspace-top'>
+                    <div class="col-sm-3">
+                        <img src='imgs/lidarodo.png' class='img-fluid'>
+                    </div>
+
+                    <div class="col">
+                        <div class='paper-title'>
+			                DeepPCO: End-to-End Point Cloud Odometry through Deep Parallel Neural Network
+                        </div>
+                        <div class='paper-desc'>
+                            <strong><em>IROS-2019</em></strong>, IEEE/RSJ International Conference on Intelligent Robots and Systems
+                        </div>
+                        <div class='paper-authors'>
+                            Wei Wang, Muhamad Saputra, Peijun Zhao, Pedro Gusmao, Bo Yang, <strong>Changhao Chen</strong>, Andrew Markham, Niki Trigoni
+                        </div>
+                        <div>
+                            <a href="https://arxiv.org/abs/1910.11088">[PDF]</a>
+                            <a href="https://www.cs.ox.ac.uk/publications/publication12657.bib">[Bibtex]</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='row vspace-top'>
+                    <div class="col-sm-3">
+                        <img src='imgs/speakerid.png' class='img-fluid'>
+                    </div>
+
+                    <div class="col">
+                        <div class='paper-title'>
+			                Autonomous Learning of Speaker Identity and WiFi Geofence from Noisy Sensor Data
+                        </div>
+                        <div class='paper-desc'>
+                            IEEE Internet of Things Journal (<strong><em>impact factor = 9.515</em></strong>)
+                        </div>
+                        <div class='paper-authors'>
+                            Chris Xiaoxuan Lu, Yuanbo Xiangli, Peijun Zhao, <strong>Changhao Chen</strong>, Niki Trigoni, Andrew Markham
+                        </div>
+                        <div>
+                            <a href="https://ieeexplore.ieee.org/document/8755294">[PDF]</a>
+                            <a href="">[Bibtex]</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='row vspace-top'>
+                    <div class="col-sm-3">
+                        <img src='imgs/mid.png' class='img-fluid'>
+                    </div>
+
+                    <div class="col">
+                        <div class='paper-title'>
+			               mID: Tracking and Identifying People with Millimeter Wave Radar
+                        </div>
+                        <div class='paper-desc'>
+                           <strong><em>DCOSS-2019</em></strong>, International Conference on Distributed Computing in Sensor Systems
+                        </div>
+                        <div class='paper-authors'>
+                            Peijun Zhao, Chris Xiaoxuan Lu, Jianan Wang, <strong>Changhao Chen</strong>, Wei Wang, Andrew Markham, Niki Trigoni
+                        </div>
+                        <div>
+                            <a href="http://www.cs.ox.ac.uk/files/10889/%5BDCOSS19%5DmID.pdf">[PDF]</a>
+                            <a href="https://www.cs.ox.ac.uk/publications/publication12524.bib">[Bibtex]</a>
+                            <p style="color:red;"><em>Best Paper Nominee </em></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='row vspace-top'>
+                    <div class="col-sm-3">
+                        <img src='imgs/autotune_www.png' class='img-fluid'>
+                    </div>
+
+                    <div class="col">
+                        <div class='paper-title'>
+			               Autonomous Learning for Face Recognition in the Wild via Ambient Wireless Cues
+                        </div>
+                        <div class='paper-desc'>
+                           <strong><em>WWW-2019</em></strong>, The Web Conference
+                        </div>
+                        <div class='paper-authors'>
+                            Chris Xiaoxuan Lu, Xuan Kan, Bowen Du, <strong>Changhao Chen</strong>, Hongkai Wen, Andrew Markham, Niki Trigoni, John A. Stankovic
+                        </div>
+                        <div>
+                            <a href="http://www.cs.ox.ac.uk/files/10828/autotune.pdf">[PDF]</a>
+              <a href="http://www.cs.ox.ac.uk/publications/publication12279.bib">[Bibtex]</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='vspace-top'>
+                    <h3>2018</h3>
+                </div>
+
+                <div class='row vspace-top'>
+                    <div class="col-sm-3">
+                        <img src='imgs/ionet3.png' class='img-fluid'>
+                    </div>
+
+                    <div class="col">
+                        <div class='paper-title'>
+			               IONet: Learning to Cure the Curse of Drift in Inertial Odometry
+                        </div>
+                        <div class='paper-desc'>
+                           <strong><em>AAAI-2018</em></strong>, The 32nd AAAI Conference on Artificial Intelligence
+                        </div>
+                        <div class='paper-authors'>
+                            <strong>Changhao Chen</strong>, Xiaoxuan Lu, Andrew Markham, Niki Trigoni
+                        </div>
+                        <div>
+                            <a href="https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewFile/16658/16223">[PDF]</a>
+                            <a href="https://www.cs.ox.ac.uk/publications/publication11583.bib">[Bibtex]</a>
+                            <a href="docs/AAAI2019_Slides.pdf">[Slides]</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='row vspace-top'>
+                    <div class="col-sm-3">
+                        <img src='imgs/waveknit.png' class='img-fluid'>
+                    </div>
+
+                    <div class="col">
+                        <div class='paper-title'>
+			               Simultaneous Localization and Mapping with Power Network Electromagnetic Field
+                        </div>
+                        <div class='paper-desc'>
+                           <strong><em>MobiCom-2018</em></strong>, Annual International Conference on Mobile Computing and Networking
+                        </div>
+                        <div class='paper-authors'>
+                            Chris Xiaoxuan Lu, Yang Li, Peijun Zhao, <strong>Changhao Chen</strong>, Linhai Xie, Hongkai Wen, Rui Tan, Niki Trigoni
+                        </div>
+                        <div>
+                            <a href="http://www.cs.ox.ac.uk/files/10380/waveknit.pdf">[PDF]</a>
+                            <a href="http://www.cs.ox.ac.uk/publications/publication12074.bib">[Bibtex]</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='row vspace-top'>
+                    <div class="col-sm-3">
+                        <img src='imgs/mi_report.png' class='img-fluid'>
+                    </div>
+
+                    <div class="col">
+                        <div class='paper-title'>
+			               Tightly-Coupled Integration of Inertial and Magneto-Inductive Sensors for Large-Scale Indoor Localization
+                        </div>
+                        <div class='paper-desc'>
+                           <strong><em>Technical Report</em></strong>, Oxford, UK, April 2017
+                        </div>
+                        <div class='paper-authors'>
+                            <strong>Changhao Chen</strong>, Andrew Markham, Niki Trigoni
+                        </div>
+                        <div>
+                            <a href="docs/MI_report.pdf">[PDF]</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='vspace-top'>
+                    <a name="thesis"></a>
+                    <h1>Thesis</h1>
+                </div>
+                <div class='row vspace-top'>
+                    <div class="col-sm-3">
+                        <img src='imgs/oxford_logo.png' class='img-fluid'>
+                    </div>
+
+                    <div class="col">
+                        <div class='paper-title'>
+			               Learning Methods for Robust Localization
+                        </div>
+                        <div class='paper-authors'>
+                             Changhao Chen
+                        </div>
+                        <div class='paper-authors'>
+                             Advised by Prof. Niki Trigoni and Prof. Andrew Markham
+                        </div>
+                        <div class='paper-desc'>
+                           <em>University of Oxford, Aug 2020</em>
+                        </div>
+                        <div>
+                            <a href="https://ora.ox.ac.uk/objects/uuid:edfcdcf6-957c-4ef8-9ec9-4028feb5161c">[PDF]</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='vspace-top'>
+                    <a name="teaching"></a>
+                    <h1>Teaching</h1>
+                </div>
+                <p>
+                    <ul style="list-style-type:disc;">
+                <li><a href="https://www.cs.ox.ac.uk/teaching/materials18-19/ml/">Machine Learning, University of Oxford</a>
+                     - Michaelmas Term 2018 (Teaching Assistant)</li>
+                <li><a href="https://www.cs.ox.ac.uk/teaching/courses/2017-2018/intellsystems/timetable.html">Intelligent Systems, University of Oxford</a>
+                    - Michaelmas Term 2017 (Teaching Assistant)</li>
+              </ul>
+
+
+
+                </p>
+
+                <div class='vspace-top'>
+                    <h1>Students Mentoring</h1>
+                </div>
+                <ul style="list-style-type:disc;">
+                <li><a href="http://www.cs.ox.ac.uk/people/bing.wang/">Bing Wang</a> (Ph.D. student, University of Oxford)</li>
+                <li><a href="http://www.cs.ox.ac.uk/people/rui.zhou/">Rui Zhou</a> (Ph.D. student, University of Oxford)</li>
+              </ul>
+
+                <div class='vspace-top'>
+                    <a name="services"></a>
+                    <h1>Services</h1>
+                </div>
+                <div class='vspace-top'>
+                <h3>Professional Services</h3>
+                    </div>
+                <ul style="list-style-type:disc;">
+                <li>Conference Reivewer/Program Commitee
+                <ul>
+                  <li>International Conference on Robotics and Automation (ICRA)</li>
+                  <li>International Conference on Intelligent Robots and Systems (IROS)</li>
+                  <li>The Web Conference (WWW)</li>
+                  <li>Conference on Neural Information Processing Systems (NeurIPS)</li>
+                  <li>British Machine Vision Conference (BMVC)</li>
+                    <li>The International Conference on Learning Representations (ICLR)</li>
+                    <li>The AAAI Conference on Artificial Intelligence (AAAI)</li>
+                </ul>
+                </li>
+                <li> Journal Reviewer
+                  <ul>
+                    <li>IEEE Transactions on Mobile Computing (TMC)</li>
+                    <li>IEEE Transactions on Neural Networks and Learning Systems (TNNLS)</li>
+                    <li>IEEE Robotics and Automation Letters (RA-L)</li>
+                    <li>IEEE Internet of Things Journal (IoT-J)</li>
+                    <li>IEEE Sensors Journal</li>
+                  </ul>
+                </li>
+              </ul>
+
+                <div class='vspace-top'>
+                <h3>Other Services</h3>
+                    </div>
+                <ul style="list-style-type:disc;">
+                <li>Member of <a href="https://www.pmb.ox.ac.uk/">Pembroke College, Oxford</a></li>
+                <li>The Vice President of <a href="https://www.oxfordchinaforum.org/">Oxford China Forum 2019</a> (attrached more than 400 onsite attendees and 1 million online views!)</li>
+                <li>The Academic Officer of <a href="http://www.pembrokemcr.com/">Pembroke MCR Committee 2018-2019</a></li>
+              </ul>
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id='footer' class='vspace-top'>
+        <p style="text-align:right;">This website was created from <a href="https://github.com/vsitzmann/vsitzmann.github.io">source code</a>.</p>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
