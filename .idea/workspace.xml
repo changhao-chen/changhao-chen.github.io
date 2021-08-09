@@ -16,8 +16,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="601">
-              <caret line="595" lean-forward="true" selection-start-line="595" selection-end-line="595" />
+            <state relative-caret-position="577">
+              <caret line="408" column="37" lean-forward="true" selection-start-line="408" selection-start-column="37" selection-end-line="408" selection-end-column="37" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,7 +98,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="952" extended-state="6" />
+    <frame x="0" y="25" width="1680" height="945" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24954791" />
@@ -120,8 +123,11 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="595" lean-forward="true" selection-start-line="595" selection-end-line="595" />
+        <state relative-caret-position="577">
+          <caret line="408" column="37" lean-forward="true" selection-start-line="408" selection-start-column="37" selection-end-line="408" selection-end-column="37" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
