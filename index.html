@@ -124,7 +124,7 @@
                     Assistant Professor
                   </div>
                   <div id='header-text-position'>
-                    College of Intelligence Science
+                    College of Intelligence Science and Technology
                   </div>
                   <div id='header-text-position'>
                     National University of Defense Technology
@@ -151,31 +151,31 @@
             <div class='col offset-sm-1'>
                 <h1>Bio</h1>
                 <p>
-                I am a Lecturer (Assistant Professor) at College of Intelligence Science, National University of Defense Technology (NUDT), China.
+                I am an Assistant Professor at the College of Intelligence Science and Technology, National University of Defense Technology (NUDT), China.
                 Before that, I was a postdoctoral researcher (2020) at <a href="http://www.cs.ox.ac.uk/">Department of Computer Science</a>, <a href="http://www.ox.ac.uk/">University of Oxford</a>.
                 I received Ph.D. in Computer Science (2016-2020) from <a href="http://www.ox.ac.uk/">University of Oxford</a>, supevised by <a href="http://www.cs.ox.ac.uk/people/niki.trigoni/">Prof. Niki Trigoni</a> and <a href="http://www.cs.ox.ac.uk/people/andrew.markham/">Prof. Andrew Markham</a>, Master in Engineering (2014-2016) from National University of Defense Technology, and Bachelor in Engineering (2010-2014) from the <a href="https://en.tongji.edu.cn/">Tongji University</a>, China.
                 </p>
                 <p>
-                    My research interests focus on <strong><em>Robotics and Cyber-Physical Systems</em></strong>.
-                    Specifically, I am passionate about addressing real-world challenges in <strong><em>localization, mapping, navigation, and perception</em></strong>, to enhance the performance of robots, mobile devices, and self-driving vehicles.
-                My major contributions have been in the following research directions:
+                    My research interests focus on <strong><em>Robotics and Embodied AI</em></strong>, particularly the challenges of <strong><em>Open-World Navigation</em></strong>.
+                    Traditional robotic algorithms often depend on meticulously crafted geometric and dynamic models, which may struggle to adapt to ever-changing, complex environments.
+                    My research demonstrates that developing learning solutions over these static models enables autonomous systems to achieve independent motion estimation, robust spatial scene perception, and reliable, safe navigation. My work involves a combination of novel algorithms and methods (including learning and statistics, signal processing, optimization, geometry, and dynamics modelling) and system implementations (including sensor fusion, hardware-software codesign, computing architecture).
+                My research outcomes have been successfully applied to a diverse range of platforms, from robots, drones, self-driving vehicles to smartphone, smartwatches, and VR/AR devices, supporting their real-world applications in intelligent transportation, emergency rescue and hospital efficiency enhancement.
                 </p>
-                <li>
-                    <strong><em>Visual Localization and Mapping</em></strong>: we have explored the use of deep learning to enhance the accuracy and robustness of Visual SLAM in complex environments, including AtLoc, P2Net, DevNet, and EMA-VIO.
-                </li>
-                <li>
-                    <strong><em>Robust Pedestrian Inertial Navigation</em></strong>: we have developed the state-of-the-art methods for pedestrian inertial navigation, including IONet, LIO-Net, and MotionTransformer,
-                    that improve the accuracy and reliability of positioning in GPS-denied or visually-degraded environments.
-                </li>
-                <li>
-                    <strong><em>Multimodal State Estimation</em></strong>: we have developed new techniques for fusing data from multiple sensors, including DynaNet and SelectFusion.
-                </li>
-                <li>
-                    <strong><em>Visually-degraded Scene Perception</em></strong>: we have developed approaches to scene perception, including Milli-Map, DeepTIO, and mID, that enable robots to better understand geometry and semantics in visually-degraded scenes.
-                </li>
                 <p>
-                   We now have <strong><em>several open positions for Ph.D., Master, and visiting students </em></strong> who are interested in deep learning-enhanced SLAM and inertial positioning.
+                    My major contributions have been in the following research directions:
                 </p>
+                <li>
+                    <strong><em>Egocentric Motion Tracking</em></strong>: we pioneer deep learning-based inertial positioning models that provide precise motion estimation and positioning in GPS-denied environments, regardless of environmental influences, including IONet, LIO-Net, and MotionTransformer.
+                </li>
+                <li>
+                    <strong><em>Robust Spatial Perception</em></strong>: our research develops novel learning and geometric methods for lifelong self-supervised learning based SLAM (e.g., DK-SLAM, SelfOdom, P2Net, DevNet), city-scale localization and rendering (e.g., AtLoc, DroneNeRF, MatLoc-NeRF), and visually-degraded perception (e.g., Milli-Map, Milli-Ego, DeepTIO, and mID).
+                </li>
+                <li>
+                    <strong><em>Safe Autonomous Navigation</em></strong>: our research develops task-driven multimodal fusion, stability-constrained dynamical modelling, and efficient policy learning, for safe robot navigation in the physical world, including SelectFusion, DynaNet and SGuidance.
+                </li>
+                <li>
+                    <strong><em>Embodied AI</em></strong>: our recent research focuses on efficient foundation model for robot navigation policy learning, and LLM based global planning.
+                </li>
                 <div class='vspace-top'>
                     <a name="news"></a>
                     <h1>News</h1>
@@ -256,7 +256,7 @@
                     </div>
                     <div class="col">
                         <div class='paper-title'>
-			            DK-SLAM: Monocular Visual SLAM with Deep Keypoints Adaptive Learning, Tracking and Loop-Closing
+			            DK-SLAM: Monocular Visual SLAM with Deep Keypoint Learning, Tracking and Loop-Closing
                         </div>
                         <div class='paper-desc'>
 				        arXiv:2401.09160
@@ -266,6 +266,26 @@
                         </div>
                         <div>
                             <a href="https://arxiv.org/abs/2401.09160">[PDF]</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='row vspace-top'>
+                    <div class="col-sm-3">
+                        <img src='imgs/matlocnerf.png' class='img-fluid'>
+                    </div>
+                    <div class="col">
+                        <div class='paper-title'>
+			            Matching Query Image Against Selected NeRF Feature for Efficient and Scalable Localization
+                        </div>
+                        <div class='paper-desc'>
+				        arXiv:2401.09160
+                        </div>
+                        <div class='paper-authors'>
+                            Huaiji Zhou, Bing Wang, <strong>Changhao Chen*</strong>
+                        </div>
+                        <div>
+                            <a href="https://arxiv.org/abs/2406.11766">[PDF]</a>
                         </div>
                     </div>
                 </div>
@@ -1153,6 +1173,16 @@
                 <h3>Professional Services</h3>
                     </div>
                 <ul style="list-style-type:disc;">
+                    <li>Session Chair
+                        <ul>
+                            <li>International Conference on Robotics and Automation (ICRA)</li>
+                        </ul>
+                    </li>
+                    <li>Meta Reviewer
+                        <ul>
+                            <li>The Pioneers Workshop of Robotics: Science and Systems (RSS Pioneers)</li>
+                        </ul>
+                    </li>
                     <li>Program Commitee
                         <ul>
                             <li>Conference on Neural Information Processing Systems (NeurIPS)</li>
@@ -1161,14 +1191,8 @@
                             <li>The AAAI Conference on Artificial Intelligence (AAAI)</li>
                         </ul>
                     </li>
-                    <li>Meta Reviewer
-                        <ul>
-                            <li>The Pioneers Workshop of Robotics: Science and Systems (RSS Pioneers)</li>
-                        </ul>
-                    </li>
                 <li>Conference Reviewer
                 <ul>
-                  <li>International Conference on Robotics and Automation (ICRA)</li>
                   <li>International Conference on Intelligent Robots and Systems (IROS)</li>
                     <li>Conference on Computer Vision and Pattern Recognition (CVPR)</li>
                     <li>International Conference on Computer Vision (ICCV)</li>
