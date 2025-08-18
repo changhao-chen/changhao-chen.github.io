@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
@@ -57,8 +57,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-we-have-several-open-positions-for-spring-fall-2026-including-full-funded-ph-d-scholarships-and-openings-for-research-assistants-and-visiting-students-if-you-want-to-join-peak-lab-please-read-here-carefully",
+          title: 'We have several open positions for Spring/Fall 2026, including full-funded Ph.D. scholarships, and...',
           description: "",
           section: "News",},{
         id: 'social-email',
