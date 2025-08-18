@@ -2,7 +2,7 @@
 layout: profiles
 permalink: /people/
 title: people
-description: members of the lab or group
+description: HKUST (GZ) PEAK-Lab is a research group dedicated to embodied AI and autonomous systems. Our mission is to bring AI into the physical open world by enabling machines to understand general motion, perceive 3D scenes, and actively navigate and interact with their surroundings.
 nav: true
 nav_order: 10
 
