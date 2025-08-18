@@ -7,8 +7,8 @@ nav: true
 nav_order: 6
 ---
 
-<a href="">Introduction to Embodied AI, HKUST(GZ)</a>
+<a href="relativity.html">Introduction to Embodied AI</a>, HKUST(GZ)
                      - Undergraduate Course, Fall 2025 (Instructor)
                      
-<a href="">Visual Navigation for Intelligent Vehicles, HKUST(GZ)</a>
-- Graduate Course, Fall 2025 (Instructor)
+<a href="">Visual Navigation for Intelligent Vehicles</a>, HKUST(GZ)
+                     - Graduate Course, Fall 2025 (Instructor)
