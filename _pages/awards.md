@@ -22,7 +22,3 @@ nav_order: 9
 
 - **May 2019**: **Best Paper Nominee**, DCOSS  
   Selected as one of the 3 Best Paper Nominees among 78 accepted papers in IEEE International Conference on Distributed Computing in Sensor Systems
-
-- **Dec 2019**: **NeurIPS ML4AD Travel Award**
-
-- **Oct 2018**: **SIGMOBILE Student Travel Grants**
