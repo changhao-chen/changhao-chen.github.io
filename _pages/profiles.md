@@ -29,20 +29,8 @@ profiles:
     more_info: >
   
   - align: left
-    image: jinqunchao.png
-    content: people_4.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-  
-  - align: left
     image: shendehan.png
     content: people_5.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-  
-  - align: left
-    image: zhanglingjie.png
-    content: people_6.md
     image_circular: false # crops the image to make it circular
     more_info: >
   
@@ -61,12 +49,6 @@ profiles:
   - align: left
     image: chengrenmin.png
     content: people_9.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-  
-  - align: left
-    image: zhangzihan.png
-    content: people_10.md
     image_circular: false # crops the image to make it circular
     more_info: >
   

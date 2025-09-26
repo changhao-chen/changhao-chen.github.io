@@ -10,7 +10,7 @@ nav_order: 8
 
 <h3>Professional Services</h3>
 
-<li><strong>Session Chair</strong>: International Conference on Robotics and Automation (ICRA)</li>
+<li><strong>Associate Editor</strong>: International Conference on Robotics and Automation (ICRA)</li>
 <li><strong>Meta Reviewer</strong>: The Pioneers Workshop of Robotics: Science and Systems (RSS Pioneers)</li>
 <li><strong>Program Commitee</strong>: Conference on Neural Information Processing Systems (NeurIPS), International Conference on Machine Learning (ICML), The International Conference on Learning Representations (ICLR), The AAAI Conference on Artificial Intelligence (AAAI)
 <li><strong>Conference Reviewer</strong>: International Conference on Intelligent Robots and Systems (IROS), Conference on Computer Vision and Pattern Recognition (CVPR), International Conference on Computer Vision (ICCV), European Conference on Computer Vision (ECCV), The Web Conference (WWW), British Machine Vision Conference (BMVC), The International Conference on Artificial Intelligence and Statistics (AISTATS)

@@ -8,7 +8,7 @@ nav_order: 9
 ---
 
 
-- **Sep 2024**: **World's Top 2% Scientists**  
+- **Sep 2025/2024**: **World's Top 2% Scientists**  
   Stanford/Elsevier's list identifies the world's leading researchers, representing approximately 2% of all scientists worldwide.
 
 - **Jan 2023**: **Young Elite Scientist Sponsorship Program**, China Association for Science and Technology  
