@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We have several open positions for Spring/Fall 2026, including full-funded Ph.D. scholarships, and openings for Research Assistants, and Visiting Students! If you want to join PEAK-Lab, please read <a href="https://zhuanlan.zhihu.com/p/20776067972">here</a> carefully.
+We have several open positions for Spring/Fall 2026, including full-funded Ph.D. scholarships, and openings for Research Assistants, and Visiting Students! If you want to join PEAK-Lab, please read <a href="https://zhuanlan.zhihu.com/p/1957124195076015781">here</a> carefully.
