@@ -63,5 +63,17 @@ profiles:
     content: people_11.md
     image_circular: false # crops the image to make it circular
     more_info: >
+  
+  - align: left
+    image: zhanghan.jpg
+    content: people_12.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+  
+  - align: left
+    image: tukunpeng.png
+    content: people_13.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
       
 ---

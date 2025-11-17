@@ -1,0 +1,1 @@
+Han Zhang is an MPhil student at HKUST(GZ), working in the PEAK Lab under the supervision of Prof. Changhao Chen. He received his bachelor's degree in Data Science from Jilin University. His research interests lie in 3D vision and Vision-Language-Action (VLA) models, with a focus on enhancing robotic perception and world understanding.
