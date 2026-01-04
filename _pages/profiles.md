@@ -33,22 +33,10 @@ profiles:
     content: people_5.md
     image_circular: false # crops the image to make it circular
     more_info: >
-    
-  - align: left
-    image: zhanglingjie.png
-    content: people_6.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
   
   - align: left
     image: zhangyufei.jpg
     content: people_7.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-  
-  - align: left
-    image: lichenyang.jpg
-    content: people_8.md
     image_circular: false # crops the image to make it circular
     more_info: >
   
