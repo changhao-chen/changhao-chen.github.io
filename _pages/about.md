@@ -24,7 +24,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an Assistant Professor, at the <a href="https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/intelligent-transportation/">Intelligent Transportation Thrust</a> and <a href="https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/information-hub/artificial-intelligence/">Artificial Intelligence Thrust</a>, <a href="https://www.hkust-gz.edu.cn/">The Hong Kong University of Science and Technology (Guangzhou)</a>, China. Before that, I was a lecturer (2021-2024) at National University of Defense Technology, China, and a postdoctoral researcher (2020) at <a href="http://www.cs.ox.ac.uk/">Department of Computer Science</a>, <a href="http://www.ox.ac.uk/">University of Oxford</a>. I received Ph.D. in Computer Science (2016-2020) from <a href="http://www.ox.ac.uk/">University of Oxford</a>, supevised by <a href="http://www.cs.ox.ac.uk/people/niki.trigoni/">Prof. Niki Trigoni</a> and <a href="http://www.cs.ox.ac.uk/people/andrew.markham/">Prof. Andrew Markham</a>, Master in Engineering (2014-2016) from National University of Defense Technology, and Bachelor in Engineering (2010-2014) from the <a href="https://en.tongji.edu.cn/">Tongji University</a>, China.
+I am a Tenure-Track Assistant Professor, at the <a href="https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/intelligent-transportation/">Intelligent Transportation Thrust</a> and <a href="https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/information-hub/artificial-intelligence/">Artificial Intelligence Thrust</a>, <a href="https://www.hkust-gz.edu.cn/">The Hong Kong University of Science and Technology (Guangzhou)</a>, China. 
+I am also affiliated with the <a href="https://emia.hkust.edu.hk/">Division of Emerging Interdisciplinary Areas (EMIA)</a> at HKUST’s Clear Water Bay campus.
+Before that, I was a lecturer (2021-2024) at National University of Defense Technology, China, and a postdoctoral researcher (2020) at <a href="http://www.cs.ox.ac.uk/">Department of Computer Science</a>, <a href="http://www.ox.ac.uk/">University of Oxford</a>. 
+I received Ph.D. in Computer Science (2016-2020) from <a href="http://www.ox.ac.uk/">University of Oxford</a>, supevised by <a href="http://www.cs.ox.ac.uk/people/niki.trigoni/">Prof. Niki Trigoni</a> and <a href="http://www.cs.ox.ac.uk/people/andrew.markham/">Prof. Andrew Markham</a>, Master in Engineering (2014-2016) from National University of Defense Technology, and Bachelor in Engineering (2010-2014) from the <a href="https://en.tongji.edu.cn/">Tongji University</a>, China.
 
 I lead the HKUST-GZ <strong>PEAK Lab</strong> (<strong>P</strong>erception, <strong>E</strong>mbodiment, <strong>A</strong>utonomy and <strong>K</strong>inematics), where our research focuses on <strong><em>Embodied AI and Autonomous Systems</em></strong>, particularly the challenges of <em>Open-World Robotic Perception, Navigation and Interaction</em>.
 Traditional robotic algorithms often depend on meticulously crafted geometric and dynamic models, which may struggle to adapt to ever-changing, complex environments.
@@ -33,10 +36,10 @@ Our research outcomes have been successfully applied to a diverse range of platf
 
 Our major contributions have been in the following research directions:
 
-<strong><em>Ubiquitous Motion Tracking</em></strong>: we pioneer deep learning-based inertial positioning models that provide precise motion estimation and positioning in GPS-denied environments, regardless of environmental influences, including IONet, M2EIT, and MotionTransformer.
+<strong><em>Open-World Spatial Perception</em></strong>: We develop novel learning and geometric methods for open-vocabulary 3D occupancy prediction, self-supervised learning-based SLAM, and city-scale neural positioning and rendering.
 
-<strong><em>Robust Spatial Perception</em></strong>: our research develops novel learning and geometric methods for self-supervised learning based SLAM (e.g., SelfOdom, P2Net, DevNet), city-scale localization and rendering (e.g., AtLoc, DroneNeRF), and visually-degraded perception (e.g., Milli-Map, Milli-Ego, DarkSLAM, and ThermalLoc).
+<strong><em>Robust State Estimation</em></strong>: We pioneer deep learning-based inertial motion tracking and task-driven multimodal fusion systems that deliver reliable state estimation while mitigating environmental influences.
 
-<strong><em>Safe Autonomous Navigation</em></strong>: our research develops task-driven multimodal fusion, stability-constrained dynamical modelling, and efficient policy learning, for safe robot navigation in the physical world, including SelectFusion, DynaNet and SGuidance.
+<strong><em>Safe Autonomous Navigation</em></strong>: We advance stability constrained dynamical modeling and efficient policy learning for safe robot navigation and agile locomotion control in the physical world.
 
-<strong><em>Embodied AI</em></strong>: our recent research focuses on efficient foundation model for robot navigation policy learning (e.g. DynaNav), and LLM based global planning.
+<strong><em>Embodied AI</em></strong>: Our recent work focuses on vision language action (VLA) models and world models for robot policy learning, as well as LLM based planning and decision making for mobile manipulation.
