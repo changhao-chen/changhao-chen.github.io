@@ -29,12 +29,6 @@ profiles:
     more_info: >
   
   - align: left
-    image: shendehan.png
-    content: people_5.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-  
-  - align: left
     image: zhangyufei.jpg
     content: people_7.md
     image_circular: false # crops the image to make it circular
