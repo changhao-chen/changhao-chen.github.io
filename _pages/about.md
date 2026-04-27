@@ -25,7 +25,7 @@ latest_posts:
 ---
 
 I am a Tenure-Track Assistant Professor, at the <a href="https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/intelligent-transportation/">Intelligent Transportation Thrust</a> and <a href="https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/information-hub/artificial-intelligence/">Artificial Intelligence Thrust</a>, <a href="https://www.hkust-gz.edu.cn/">The Hong Kong University of Science and Technology (Guangzhou)</a>, China. 
-I am also affiliated with the <a href="https://emia.hkust.edu.hk/">Division of Emerging Interdisciplinary Areas (EMIA)</a> at HKUST’s Clear Water Bay campus.
+I am also affiliated with the <a href="https://emia.hkust.edu.hk/">Division of Emerging Interdisciplinary Areas (EMIA)</a> at <a href="https://hkust.edu.hk/">HKUST’s Clear Water Bay campus</a>.
 Before that, I was a lecturer (2021-2024) at National University of Defense Technology, China, and a postdoctoral researcher (2020) at <a href="http://www.cs.ox.ac.uk/">Department of Computer Science</a>, <a href="http://www.ox.ac.uk/">University of Oxford</a>. 
 I received Ph.D. in Computer Science (2016-2020) from <a href="http://www.ox.ac.uk/">University of Oxford</a>, supevised by <a href="http://www.cs.ox.ac.uk/people/niki.trigoni/">Prof. Niki Trigoni</a> and <a href="http://www.cs.ox.ac.uk/people/andrew.markham/">Prof. Andrew Markham</a>, Master in Engineering (2014-2016) from National University of Defense Technology, and Bachelor in Engineering (2010-2014) from the <a href="https://en.tongji.edu.cn/">Tongji University</a>, China.
 
