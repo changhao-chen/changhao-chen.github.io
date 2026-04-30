@@ -36,10 +36,14 @@ Our research outcomes have been successfully applied to a diverse range of platf
 
 Our major contributions have been in the following research directions:
 
-<strong><em>Open-World Spatial Perception</em></strong>: We develop novel learning and geometric methods for open-vocabulary 3D occupancy prediction, self-supervised learning-based SLAM, and city-scale neural positioning and rendering.
+<strong><em>Perception — Open-World Spatial Understanding</em></strong>:
+We develop principled learning-based and geometric methods for open-vocabulary 3D occupancy prediction, self-supervised SLAM, and city-scale neural localization and rendering, enabling robots to perceive and reason about unbounded, dynamic environments.
 
-<strong><em>Robust State Estimation</em></strong>: We pioneer deep learning-based inertial motion tracking and task-driven multimodal fusion systems that deliver reliable state estimation while mitigating environmental influences.
+<strong><em>Embodiment — Learning to Act</em></strong>:
+We explore vision–language–action (VLA) models and world models for scalable robot policy learning, as well as LLM-driven planning and decision-making for complex, long-horizon mobile manipulation tasks.
 
-<strong><em>Safe Autonomous Navigation</em></strong>: We advance stability constrained dynamical modeling and efficient policy learning for safe robot navigation and agile locomotion control in the physical world.
+<strong><em>Autonomy — Safe and Agile Control</em></strong>:
+We advance stability-constrained dynamical models and efficient policy learning frameworks to achieve safe, reliable navigation and agile locomotion in real-world settings.
 
-<strong><em>Embodied AI</em></strong>: Our recent work focuses on vision language action (VLA) models and world models for robot policy learning, as well as LLM based planning and decision making for mobile manipulation.
+<strong><em>Kinematics — Robust State Estimation</em></strong>:
+We pioneer deep learning-based inertial motion tracking and task-driven multimodal fusion systems that deliver accurate and robust state estimation under diverse and challenging conditions.
