@@ -7,6 +7,8 @@ nav: true
 nav_order: 9
 ---
 
+- **May 2026**: **CVPR 2026 Paper Award Candidates**  
+  74 recipients among 16,092 submissions
 
 - **Sep 2025/2024**: **World's Top 2% Scientists**  
   Stanford/Elsevier's list identifies the world's leading researchers, representing approximately 2% of all scientists worldwide.
