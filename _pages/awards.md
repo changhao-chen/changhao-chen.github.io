@@ -7,7 +7,7 @@ nav: true
 nav_order: 9
 ---
 
-- **May 2026**: **CVPR 2026 Paper Award Candidates**  
+- **May 2026**: **CVPR 2026 Paper Award Candidate**  
   74 recipients among 16,092 submissions
 
 - **Sep 2025/2024**: **World's Top 2% Scientists**  
