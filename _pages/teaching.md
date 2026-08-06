@@ -7,6 +7,15 @@ nav: true
 nav_order: 6
 ---
 
+<a href="">Linear Algebra</a>, HKUST(GZ)
+                     - Undergraduate Course, Fall 2026 (Instructor)
+                     
+<a href="">Visual Navigation for Intelligent Vehicles</a>, HKUST(GZ)
+                     - Graduate Course, Fall 2026 (Instructor)
+
+<a href="">Seminar in Intelligent Transportation</a>, HKUST(GZ)
+                     - Graduate Course, Fall 2026 (Host)
+
 <a href="https://peaklab-hkust-gz.github.io/AIAA_4220/EAI-fall-2025/">Introduction to Embodied AI</a>, HKUST(GZ)
                      - Undergraduate Course, Fall 2025 (Instructor)
                      
