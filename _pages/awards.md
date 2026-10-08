@@ -7,11 +7,17 @@ nav: true
 nav_order: 9
 ---
 
+- **Oct 2026/25/24**: **World's Top 2% Scientists**  
+  Stanford/Elsevier's list identifies the world's leading researchers, representing approximately 2% of all scientists worldwide.
+
+- **Sep 2026**: **Duxue Star of HKUST(GZ)**  
+  Conferred once every two years and awarded to three faculty members each cycle, in recognition of outstanding innovation and breakthroughs in teaching, research, and other areas, and to inspire creativity among faculty and staff.
+
 - **May 2026**: **CVPR 2026 Paper Award Candidate**  
   74 recipients among 16,092 submissions
 
-- **Sep 2025/2024**: **World's Top 2% Scientists**  
-  Stanford/Elsevier's list identifies the world's leading researchers, representing approximately 2% of all scientists worldwide.
+- **Apr 2024**: **Top 10 Finalist in Area**  
+  Zhongguancun International Advanced Technology Competition
 
 - **Jan 2023**: **Young Elite Scientist Sponsorship Program**, China Association for Science and Technology  
   Selected as one of 700 national recipients across all scientific fields

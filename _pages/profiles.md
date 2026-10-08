@@ -11,51 +11,52 @@ profiles:
   # and create one content file for each profile inside _pages/
   
   - align: left
-    image: chenchanghao.png
     content: people_1.md
-    image_circular: false # crops the image to make it circular
     more_info: >
   
   - align: left
-    image: zhouchangqing.png
     content: people_2.md
-    image_circular: false # crops the image to make it circular
     more_info: >
+      
+  #  image: zhouchangqing.png
+ #   content: people_2.md
+ #   image_circular: false # crops the image to make it circular
+ #   more_info: >
   
-  - align: left
-    image: jiangzeyu.png
-    content: people_3.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
+ # - align: left
+ #   image: jiangzeyu.png
+ #   content: people_3.md
+ #   image_circular: false # crops the image to make it circular
+ #   more_info: >
   
-  - align: left
-    image: zhangyufei.jpg
-    content: people_7.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
+ # - align: left
+ #   image: zhangyufei.jpg
+ #   content: people_7.md
+ #   image_circular: false # crops the image to make it circular
+ #   more_info: >
   
-  - align: left
-    image: chengrenmin.png
-    content: people_9.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
+ # - align: left
+ #   image: chengrenmin.png
+ #   content: people_9.md
+ #   image_circular: false # crops the image to make it circular
+ #   more_info: >
   
-  - align: left
-    image: liujialong.png
-    content: people_11.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
+ # - align: left
+ #   image: liujialong.png
+ #   content: people_11.md
+ #   image_circular: false # crops the image to make it circular
+ #   more_info: >
   
-  - align: left
-    image: zhanghan.jpg
-    content: people_12.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
+ # - align: left
+ #   image: zhanghan.jpg
+ #   content: people_12.md
+ #   image_circular: false # crops the image to make it circular
+#    more_info: >
   
-  - align: left
-    image: tukunpeng.png
-    content: people_13.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
+ # - align: left
+ #   image: tukunpeng.png
+ #   content: people_13.md
+ #   image_circular: false # crops the image to make it circular
+ #   more_info: >
       
 ---

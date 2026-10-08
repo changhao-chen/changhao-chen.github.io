@@ -1,1 +1,11 @@
-Changqing Zhou is a Ph.D. student at HKUST-GZ, where he is advised by Prof. Changhao CHEN. He holds an M.S. in Artificial Intelligence from NTU and a B.S. in Mechanical Engineering from SJTU. His research interests focus on 3D vision and scene understanding. He aims to develop embodied agents capable of perceiving and interacting with the real world, with the ultimate goal of delivering tangible benefits to everyday life.
+Ph.D. Students
+
+Changqing Zhou (2025-)
+
+Zeyu Jiang (2025-)
+
+Yufei Zhang (2026-)
+
+Zhaoyi Wang (2026-)
+
+Yuexin Mu (2026-)
