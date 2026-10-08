@@ -1,1 +1,5 @@
-Dehan Shen is a research assistant working with Prof. Changhao Chen. He graduated from the University of Sheffield with a Master's degree in Robotics and from Shanghai University with a Bachelor's degree in Electronic Information Engineering. His research interests include learning-based inertial odometry and proprioceptive intelligence.
+<strong>Undergraduate Students</strong>
+
+Yilin Wu (2025-): Embodied Navigation
+
+Xiaoyu Li (2026-): Robot Locomotion

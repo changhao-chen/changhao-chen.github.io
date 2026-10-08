@@ -1,1 +1,9 @@
-Qunchao Jin is a Research Assistant at ​​Peak Lab​​, where he focuses on ​​foundation model-based embodied navigation​​. Previously, he worked as a ​​Computer Vision Researcher​​ at ​​Lenovo Research​​, developing robotic inspection systems. He holds a ​​Master’s degree​​ from ​​East China Normal University​​, with research in ​​medical image analysis​​. Driven by a broad interest in ​​AI applications across industries​​, Qunchao aims to bridge advanced research with practical solutions to real-world challenges.
+<strong>Research Assistants</strong>
+
+Jiajie Zhang (2026-): Robot Manipulation
+
+Fangkun Wu (2026-): Robot Locomotion
+
+Jinyang Zhao (2026-): Robot Manipulation
+
+Yuanjie Yang (2026-): Robot Locomotion
