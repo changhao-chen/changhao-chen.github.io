@@ -1,3 +1,11 @@
-Lingjie Zhang is a research assistant at PEAK-LAB, HKUST(GZ), advised by Prof. Changhao Chen, and a master's student in Automotive Engineering at the Technical University of Munich. He is interested in embodied navigation, particularly in learning-based motion planning and control.
+<strong>Alumni</strong>
 
+Qunchao Jin: Now Ph.D. student at the University of Adelaide
 
+Lingjie Zhang: Now Ph.D. student at Eastern Institute of Technology, Ningbo/Shanghai Jiaotong University
+
+Renmin Cheng: Now Ph.D. student at Nanjing University
+
+Dehan Shen: Now Ph.D. student at Hunan University
+
+Chenyang Li: Now RA at Nanyang Technical University

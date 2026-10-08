@@ -1,1 +1,13 @@
-Zeyu Jiang is a PhD student at HKUST-GZ, supervised by Prof. Changhao Chen. Previously, he obtained his master’s degree at NTU and bachelor’s degree at BIT. His research interests focus on embodied perception based on visual SLAM. He is interested in robotics and committed to joining the development of embodied AI into the physical world.
+<strong>Master Students</strong>
+
+Kunpeng Tu (2025-): SLAM
+
+Han Zhang (2025-): Embodied Navigation
+
+Shiyong Liu (2025-): AI Agent
+
+Jialong Liu (2026-): Robot Manipulation
+
+Jiangdian Chen (2026-): Mobile Manipulation
+
+Jinhao Chen (2026-): Robot Locomotion

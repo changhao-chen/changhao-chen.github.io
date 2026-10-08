@@ -18,16 +18,23 @@ profiles:
     content: people_2.md
     more_info: >
       
-  #  image: zhouchangqing.png
- #   content: people_2.md
- #   image_circular: false # crops the image to make it circular
- #   more_info: >
+  - align: left
+    content: people_3.md
+    more_info: >
   
- # - align: left
- #   image: jiangzeyu.png
- #   content: people_3.md
+  - align: left
+    content: people_4.md
+    more_info: >
+      
+  - align: left
+    content: people_5.md
+    more_info: >
+      
+  - align: left
+    content: people_6.md
+    more_info: >
  #   image_circular: false # crops the image to make it circular
- #   more_info: >
+ #   
   
  # - align: left
  #   image: zhangyufei.jpg
